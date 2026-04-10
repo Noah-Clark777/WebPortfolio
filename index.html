@@ -1,0 +1,761 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <h2 class="visually-hidden">Header</h2>
+      <div class="wrapper">
+        <nav class="header__nav">
+          <a href="/" class="header__home">
+            NoahClark
+            <span class="visually-hidden">(to home Page)</span>
+          </a>
+          <a href="https://github.com/Noah-Clark777"
+            ><ion-icon
+              class="header__social"
+              name="logo-github"
+              aria-label="GitHub"
+            ></ion-icon
+          ></a>
+          <a href="https://www.linkedin.com/in/noahclarkj/"
+            ><ion-icon
+               class="header__social"
+              name="logo-linkedin"
+              aria-label="LinkedIn"
+            ></ion-icon
+          ></a>
+          <!-- TODO: add resume link -->
+           <a href="https://www.linkedin.com/in/noahclarkj/"
+          ><ion-icon   class="header__social" name="document-text-sharp" aria-label="Resume"></ion-icon></a>
+        </nav>
+      </div>
+    </header>
+       <section class="hero">
+        <div class="wrapper hero__wrapper bottom-border">
+          <div class="hero__content">
+            <picture>
+              <source
+                media="(min-width: 62.5em)"
+                srcset="./assets/images/bio photo.jpg"
+              />
+              <source
+                media="(min-width: 37.5em)"
+                srcset="./assets/images/bio photo.jpg"
+              />
+              <img
+                class="hero__image"
+                src="./assets/images/bio photo.jpg"
+                alt="picture of Noah Clark"
+                width="174"
+                height="383"
+              />
+            </picture>
+            <img
+              class="hero__rings"
+              src="./assets/images/stacked-rings.svg"
+              alt=""
+              width="530"
+              height="129"
+            />
+            <img
+              class="hero__circle"
+              src="assets/images/circle-outline.svg"
+              alt=""
+              width="129"
+              height="129"
+            />
+            <div class="hero__text">
+              <h1 class="hero__headline header-xl">
+                Nice to<br />
+                meet you! I'm <span>Noah Clark</span>.
+              </h1>
+              <p class="hero__description">
+                <!-- TODO: update bio -->
+                Based in Denton Tx, I'm a front-end developer 
+              </p>
+              <a href="#contact" class="hero__contact underline">Contact me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+   <section class="skills">
+     <div class="wrapper skills__wrapper bottom-border">
+      <h2 class="visually-hidden">skills</h2>
+      <div class="skills__item">
+        <h3 class="skills__title">HTML</h3>
+        <p class="skills__description">2 Years Experience</p>
+      </div>
+<div class="skills__item">
+        <h3 class="skills__title">CSS</h3>
+        <p class="skills__description">2 Years Experience</p>
+      </div>
+<div class="skills__item">
+        <h3 class="skills__title">Javascript</h3>
+        <p class="skills__description">2 Years Experience</p>
+      </div>
+<div class="skills__item">
+        <h3 class="skills__title">React</h3>
+        <p class="skills__description">1 Years Experience</p>
+      </div>
+<div class="skills__item">
+        <h3 class="skills__title">Tailwind</h3>
+        <p class="skills__description">1 Years Experience</p>
+      </div>
+<div class="skills__item">
+        <h3 class="skills__title">Sass</h3>
+        <p class="skills__description">6 Months Experience</p>
+      </div>
+
+    </div>
+      <img
+              class="skills__rings"
+              src="./assets/images/stacked-rings.svg"
+              alt=""
+              width="530"
+              height="129"
+            />
+   </section>
+   <section class="projects">
+    <div class="wrapper projects__wrapper">
+    <div class="projects__grid">
+      <h2 class="projects__headline header-xl">Projects</h2>
+      <a href="#contact" class="projects__contact underline">Contact me</a>
+      <div class="projects__item">
+           <h3 class="projects__name">Atomic Blog</h3>
+        <picture class="projects__picture">
+              <source
+                media="(min-width: 62.5em)"
+                srcset=""
+              />
+         
+              
+              <img
+                class="projects__image"
+                src="./assets/images/atomic_blog_small.png"
+                alt="screenshot of Blog project"
+                width="343"
+                height="253"
+              />
+            </picture>
+     
+        <p class="projects__tags">
+          <span>React</span>
+          <span>CSS</span>
+     
+        </p>
+        <div class="projects__links">
+          <a href="https://atomic-blog-njc.netlify.app/" class="underline"> view project</a>
+          <a href="https://github.com/Noah-Clark777/atomic-blog" class="underline"> view Code</a>
+        </div>
+      </div>
+
+       <div class="projects__item">
+                <h3 class="projects__name">Bank Account Simulator</h3>
+        <picture class="projects__picture">
+              <source
+                media="(min-width: 62.5em)"
+                srcset="./assets/images/bank_simulator_large.png"
+              />
+         
+              
+              <img
+                class="projects__image"
+                src="./assets/images/bank_simulator_small.png"
+                alt="screenshot of a bank account"
+                width="343"
+                height="253"
+              />
+            </picture>
+
+        <p class="projects__tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+
+        </p>
+        <div class="projects__links">
+          <a href="https://banksimulater-njc.netlify.app/" class="underline"> view project</a>
+          <a href="https://github.com/Noah-Clark777/Bank-account-simulater" class="underline"> view Code</a>
+        </div>
+      </div>
+
+      <div class="projects__item">
+                <h3 class="projects__name">Bank Website</h3>
+        <picture class="projects__picture">
+              <source
+                media="(min-width: 62.5em)"
+                srcset="./assets/images/bank_website_large.png"
+              />
+         
+              
+              <img
+                class="projects__image"
+                src="./assets/images/bank_website_small.png"
+                alt="screenshot of a bank website"
+                width="343"
+                height="253"
+              />
+            </picture>
+
+        <p class="projects__tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </p>
+        <div class="projects__links">
+          <a href="https://bankwebsite-njc.netlify.app/" class="underline"> view project</a>
+          <a href="https://github.com/Noah-Clark777/Bankist-website--Demo" class="underline"> view Code</a>
+        </div>
+      </div>
+
+      <div class="projects__item">
+                <h3 class="projects__name">Faraway Travel Planner</h3>
+        <picture class="projects__picture">
+              <source
+                media="(min-width: 62.5em)"
+                srcset="./assets/images/faraway_large.png"
+              />
+         
+              
+              <img
+                class="projects__image"
+                src="./assets/images/faraway_small.png"
+                alt="screenshot of a packing list website"
+                width="343"
+                height="253"
+              />
+            </picture>
+
+        <p class="projects__tags">
+          <span>React</span>
+          <span>CSS</span>
+        </p>
+        <div class="projects__links">
+          <a href="https://faraway-njc.netlify.app/" class="underline"> view project</a>
+          <a href="https://github.com/Noah-Clark777/Fawaway" class="underline"> view Code</a>
+        </div>
+      </div>
+
+      <div class="projects__item">
+                <h3 class="projects__name">Food with Friends</h3>
+        <picture class="projects__picture">
+              <source
+                media="(min-width: 62.5em)"
+                srcset="./assets/images/food_with_friends_large.png"
+              />
+         
+              
+              <img
+                class="projects__image"
+                src="./assets/images/food_with_friends_small.png"
+                alt="screenshot of a meal expense tracker website"
+                width="343"
+                height="253"
+              />
+            </picture>
+
+        <p class="projects__tags">
+          <span>React</span>
+          <span>CSS</span>
+        </p>
+        <div class="projects__links">
+          <a href="https://foodwithfriends-njc.netlify.app/" class="underline"> view project</a>
+          <a href="https://github.com/Noah-Clark777/FriendFoodTab" class="underline"> view Code</a>
+        </div>
+      </div>
+      <!-- TODO: add the rest of the projects, get better resolution photos, and add working links to everything -->
+       <div class="projects__item">
+                <h3 class="projects__name">Map my Fitness</h3>
+        <picture class="projects__picture">
+              <source
+                media="(min-width: 62.5em)"
+                srcset="./assets/images/map_my_fitness_large.png"
+              />
+         
+              
+              <img
+                class="projects__image"
+                src="./assets/images/map_my_fitness_small.png"
+                alt="screenshot of a map "
+                width="343"
+                height="253"
+              />
+            </picture>
+
+        <p class="projects__tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>javascript</span>
+        </p>
+        <div class="projects__links">
+          <a href="https://map-my-fintness-njc.netlify.app/" class="underline"> view project</a>
+          <a href="https://github.com/Noah-Clark777/maptyV2" class="underline"> view Code</a>
+        </div>
+      </div>
+
+      <div class="projects__item">
+        
+                <h3 class="projects__name">Guess My Number</h3>
+        <picture class="projects__picture">
+              <source
+                media="(min-width: 62.5em)"
+                srcset="./assets/images/number_guessing_game_large.png"
+              />
+         
+              
+              <img
+                class="projects__image"
+                src="./assets/images/number_guessing_game_small.png"
+                alt="screenshot of a game to guess a number"
+                width="343"
+                height="253"
+              />
+            </picture>
+
+        <p class="projects__tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>javascript</span>
+        </p>
+        <div class="projects__links">
+          <a href="https://number-gussing-game.netlify.app/" class="underline"> view project</a>
+          <a href="https://github.com/Noah-Clark777/Number_guessing_game" class="underline"> view Code</a>
+        </div>
+      </div>
+
+            <div class="projects__item">
+        
+                <h3 class="projects__name">Omnifood</h3>
+        <picture class="projects__picture">
+              <source
+                media="(min-width: 62.5em)"
+                srcset="./assets/images/omnifood_fix_large.png"
+              />
+         
+              
+              <img
+                class="projects__image"
+                src="./assets/images/omnifood_fix_small.png"
+                alt="screenshot of a food delivery website"
+                width="343"
+                height="253"
+              />
+            </picture>
+
+        <p class="projects__tags">
+          <span>HTML</span>
+          <span>CSS</span>
+         
+        </p>
+        <div class="projects__links">
+          <a href="https://omnifood-noahclark.netlify.app/" class="underline"> view project</a>
+          <a href="https://github.com/Noah-Clark777/Omnifood-project" class="underline"> view Code</a>
+        </div>
+      </div>
+
+            <div class="projects__item">
+        
+                <h3 class="projects__name">Pig Game</h3>
+        <picture class="projects__picture">
+              <source
+                media="(min-width: 62.5em)"
+                srcset="./assets/images/pig_game_fix_large.png"
+              />
+         
+              
+              <img
+                class="projects__image"
+                src="./assets/images/pig_game_fix_small.png"
+                alt="screenshot of a 2 player dice rolling game"
+                width="343"
+                height="253"
+              />
+            </picture>
+
+        <p class="projects__tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>Javascript</span>
+         
+        </p>
+        <div class="projects__links">
+          <a href="https://pig-game-njc.netlify.app/" class="underline"> view project</a>
+          <a href="https://github.com/Noah-Clark777/pig-game" class="underline"> view Code</a>
+        </div>
+      </div>
+
+           <div class="projects__item">
+        
+                <h3 class="projects__name">React Bank</h3>
+        <picture class="projects__picture">
+              <source
+                media="(min-width: 62.5em)"
+                srcset="./assets/images/react_bank_fix_large.png"
+              />
+         
+              
+              <img
+                class="projects__image"
+                src="./assets/images/react_bank_fix_small.png"
+                alt="screenshot of a simple bank app"
+                width="343"
+                height="253"
+              />
+            </picture>
+
+        <p class="projects__tags">
+          <span>React</span>
+
+         
+        </p>
+        <div class="projects__links">
+          <a href="https://react-bank-app-njc.netlify.app/" class="underline"> view project</a>
+          <a href="https://github.com/Noah-Clark777/React-redux-Bank-app" class="underline"> view Code</a>
+        </div>
+      </div>
+
+          <div class="projects__item">
+        
+                <h3 class="projects__name">React Pizza Co.</h3>
+        <picture class="projects__picture">
+              <source
+                media="(min-width: 62.5em)"
+                srcset="./assets/images/react_pizza_fix_large.png"
+              />
+         
+              
+              <img
+                class="projects__image"
+                src="./assets/images/react_pizza_fix_small.png"
+                alt="screenshot of a pizza ordering website"
+                width="343"
+                height="253"
+              />
+            </picture>
+
+        <p class="projects__tags">
+          <span>React</span>
+          <span>tailwind</span>
+
+         
+        </p>
+        <div class="projects__links">
+          <a href="https://react-pizza-noah.netlify.app/" class="underline"> view project</a>
+          <a href="https://github.com/Noah-Clark777/Fast-React-Pizza-Co" class="underline"> view Code</a>
+        </div>
+      </div>
+
+          <div class="projects__item">
+        
+                <h3 class="projects__name">Recipe Book</h3>
+        <picture class="projects__picture">
+              <source
+                media="(min-width: 62.5em)"
+                srcset="./assets/images/Recipe_Book_small.png"
+              />
+         
+              
+              <img
+                class="projects__image"
+                src="./assets/images/Recipe_book_large.png"
+                alt="screenshot of a website to look up and save recipes"
+                width="343"
+                height="253"
+              />
+            </picture>
+
+        <p class="projects__tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>javascript</span>
+
+         
+        </p>
+        <div class="projects__links">
+          <a href="https://recipe-book-njc.netlify.app/" class="underline"> view project</a>
+          <a href="https://github.com/Noah-Clark777/Recipe-Book-App" class="underline"> view Code</a>
+        </div>
+      </div>
+
+          <div class="projects__item">
+        
+                <h3 class="projects__name">Product Landing Page</h3>
+        <picture class="projects__picture">
+              <source
+                media="(min-width: 62.5em)"
+                srcset="./assets/images/Product_page_small.png"
+              />
+         
+              
+              <img
+                class="projects__image"
+                src="./assets/images/Product_page_large.png"
+                alt="screenshot of a Product landing page to sell chairs"
+                width="343"
+                height="253"
+              />
+            </picture>
+
+        <p class="projects__tags">
+          <span>HTML</span>
+          <span>CSS</span>
+
+         
+        </p>
+        <div class="projects__links">
+          <a href="https://product-landing-page-njc.netlify.app/" class="underline"> view project</a>
+          <a href="https://github.com/Noah-Clark777/project.product-landing-page" class="underline"> view Code</a>
+        </div>
+      </div>
+
+          <div class="projects__item">
+        
+                <h3 class="projects__name">Weather App</h3>
+        <picture class="projects__picture">
+              <source
+                media="(min-width: 62.5em)"
+                srcset="./assets/images/Weather_App_small.png"
+              />
+         
+              
+              <img
+                class="projects__image"
+                src="./assets/images/Weather App_large.png"
+                alt="screenshot of a weather app"
+                width="343"
+                height="253"
+              />
+            </picture>
+
+        <p class="projects__tags">
+          <span>React</span>
+          <span>CSS</span>
+
+         
+        </p>
+        <div class="projects__links">
+          <a href="https://appclassyweather.netlify.app/" class="underline"> view project</a>
+          <a href="https://github.com/Noah-Clark777/ReactWeather" class="underline"> view Code</a>
+        </div>
+      </div>
+
+          <div class="projects__item">
+        
+                <h3 class="projects__name">Wild Oasis Website</h3>
+        <picture class="projects__picture">
+              <source
+                media="(min-width: 62.5em)"
+                srcset="./assets/images/Wild_Oasis_website_small.png"
+              />
+         
+              
+              <img
+                class="projects__image"
+                src="./assets/images/Wild_Oasis_website_large.png"
+                alt="screenshot of a pizza ordering website"
+                width="343"
+                height="253"
+              />
+            </picture>
+
+        <p class="projects__tags">
+          <span>React</span>
+          <span>tailwind</span>
+
+         
+        </p>
+        <div class="projects__links">
+          <a href="https://wild-oasis-website-six-taupe.vercel.app/" class="underline"> view project</a>
+          <a href="https://github.com/Noah-Clark777/wild-Oasis-Website" class="underline"> view Code</a>
+        </div>
+      </div>
+
+          <div class="projects__item">
+        
+                <h3 class="projects__name">Wild Oasis</h3>
+        <picture class="projects__picture">
+              <source
+                media="(min-width: 62.5em)"
+                srcset="./assets/images/WIld Oasis_large.png"
+              />
+         
+              
+              <img
+                class="projects__image"
+                src="./assets/images/WIld Oasis_small.png"
+                alt="screenshot of a Hotel managing service app"
+                width="343"
+                height="253"
+              />
+            </picture>
+
+        <p class="projects__tags">
+          <span>React</span>
+          <span>tailwind</span>
+
+         
+        </p>
+        <div class="projects__links">
+          <a href="https://wild-oasis-njc.netlify.app/" class="underline"> view project</a>
+          <a href="https://github.com/Noah-Clark777/Wild-Oasis-project" class="underline"> view Code</a>
+        </div>
+      </div>
+
+          <div class="projects__item">
+        
+                <h3 class="projects__name">UsePopcorn</h3>
+        <picture class="projects__picture">
+              <source
+                media="(min-width: 62.5em)"
+                srcset="./assets/images/usepopcorn_small.png"
+              />
+         
+              
+              <img
+                class="projects__image"
+                src="./assets/images/usepopcorn_large.png"
+                alt="screenshot of a movie review website"
+                width="343"
+                height="253"
+              />
+            </picture>
+
+        <p class="projects__tags">
+          <span>React</span>
+          <span>CSS</span>
+
+         
+        </p>
+        <div class="projects__links">
+          <a href="https://usepopcorn-noah.netlify.app/" class="underline"> view project</a>
+          <a href="https://github.com/Noah-Clark777/usepopcorn" class="underline"> view Code</a>
+        </div>
+      </div>
+
+          <div class="projects__item">
+        
+                <h3 class="projects__name">Worldwise</h3>
+        <picture class="projects__picture">
+              <source
+                media="(min-width: 62.5em)"
+                srcset="./assets/images/Worldwise_small.png"
+              />
+         
+              
+              <img
+                class="projects__image"
+                src="./assets/images/Worldwise_large.png"
+                alt="screenshot of a pizza ordering website"
+                width="343"
+                height="253"
+              />
+            </picture>
+
+        <p class="projects__tags">
+          <span>React</span>
+          <span>CSS</span>
+
+         
+        </p>
+        <div class="projects__links">
+          <a href="https://worldwise-njc.netlify.app/" class="underline"> view project</a>
+          <a href="https://github.com/Noah-Clark777/worldWise" class="underline"> view Code</a>
+        </div>
+      </div>
+
+
+    </div>
+    </div>
+   </section>
+<section id="contact" class="contact">
+  <div class="contact__wrapper wrapper bottom-border" id="contact">
+    <div class="contact__text">
+      <h2 class="contact__headline header-xl">Contact</h2>
+      <p class="contact__description">I would love to hear from you! Please fill in the form, and I'll get back to you as soon as possible.</p>
+    </div>
+<form action="post" class="contact__form">
+  <div class="contact__control">
+    <label for="name" class="contact__label visually-hidden">Name</label>
+    <input type="text" id="name" name="name" class="contact__input" placeholder="First & Last Name" required>
+    <ion-icon name="alert-circle-outline"  class="contact__invalid-icon" width="24" height="24"></ion-icon>
+   
+  </div>
+
+   <div class="contact__control">
+    <label for="email" class="contact__label visually-hidden">Email</label>
+    <input type="email" id="email" name="email" class="contact__input" placeholder="Email Address" required>
+        <ion-icon name="alert-circle-outline"  class="contact__invalid-icon" width="24" height="24"></ion-icon>
+  </div>
+
+   <div class="contact__control">
+    <label for="message" class="contact__label visually-hidden">Message</label>
+    <textarea id="message" name="message" class="contact__input" placeholder="Message" cols="30" rows="3" required></textarea>
+    <ion-icon name="alert-circle-outline"  class="contact__invalid-icon" width="24" height="24"></ion-icon>
+  </div>
+  <div class="contact__control align-right">
+    <button type="submit" >Send Message</button>
+  </div>
+</form>
+</div>
+     <img
+              class="contact__rings"
+              src="./assets/images/stacked-rings.svg"
+              alt=""
+              width="530"
+              height="309"
+            />
+</section>
+
+    </main>
+    <footer class="contact bg-less-dark">
+         <h2 class="visually-hidden">Footer</h2>
+      <div class="wrapper">
+        <nav class="header__nav">
+          <a href="/" class="header__home">
+            NoahClark
+            <span class="visually-hidden">(to home Page)</span>
+          </a>
+          <a href="https://github.com/Noah-Clark777"
+            ><ion-icon
+              class="header__social"
+              name="logo-github"
+              aria-label="GitHub"
+            ></ion-icon
+          ></a>
+          <a href="https://www.linkedin.com/in/noahclarkj/"
+            ><ion-icon
+               class="header__social"
+              name="logo-linkedin"
+              aria-label="LinkedIn"
+            ></ion-icon
+          ></a>
+          <!-- TODO: add resume link -->
+           <a href="https://www.linkedin.com/in/noahclarkj/"
+          ><ion-icon   class="header__social" name="document-text-sharp" aria-label="Resume"></ion-icon></a>
+        </nav>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+
+</html>
+
+
